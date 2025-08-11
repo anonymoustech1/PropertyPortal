@@ -3,6 +3,10 @@ import HeroSlider from '../components/HeroSlider';
 import PopularCard from '../components/PopularCard';
 import Popular from '../Popular';
 import '../styles.css'
+import OptionsCard from '../components/OptionsCard';
+import Insta from '../components/Insta';
+import TalkAgent from '../components/TalkAgent';
+
 
 const Home = () => {
   return (
@@ -35,11 +39,15 @@ const Home = () => {
         </div> 
       </div> 
       
+      
 
      </div>   
   
+    <OptionsCard/>
+    <Insta/>
+    <TalkAgent/>
+    
 
-     
     </>
    
   );
