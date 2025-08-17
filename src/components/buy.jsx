@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-// import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const buy = () => {
      /* set the state variable to be null; i.e no dropdown */
     const [openDropdown, setDropdown] = useState(null)
      /* i make a function to update the initial state variable  */
@@ -15,16 +14,15 @@ const Navbar = () => {
     // }, [])
 
   return (
-    
     <>
     <nav className='navbar'>
     <section className='logo'>
-        {/* <img src="/images/EstateLogo.png" alt="images" /> */}
+        <img src="/images/EstateLogo.png" alt="images" />
         </section>
     <section className='container'>
         <ul className='nav-link'>
             <span style={{fontSize:"25px", fontFamily: "sans-serif"}}>RealEstate</span>
-            <li className='nav-item'><a href="/buy">BUY</a></li>
+            <li className='nav-item'><a href="#">BUY</a></li>
             <li className='nav-item'><a href="#">RENT</a></li>
             <li className='nav-item'><a href="#">SELL</a></li>
             <li className='nav-item dropdown' onMouseEnter={()=> handledropdownClick(
@@ -88,4 +86,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default buy
