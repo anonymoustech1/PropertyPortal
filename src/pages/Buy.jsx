@@ -1,27 +1,14 @@
 import React from 'react'
-import { FaFacebook } from 'react-icons/fa';
-import { AiFillApple } from 'react-icons/ai';
-import { MdShop } from 'react-icons/md';
+// import { FaFacebook } from 'react-icons/fa';
+import "./Buy.css"
+import ScanCode from "../components/ScanCode"
+import BuyNavbar from '../components/BuyNavbar'
 
 export const Buy = () => {
   return (
     <>
-    <header className='header-con'>
-        <div className='logo'> <img src="/images/EstateLogo.png" alt="images" /></div>
-        <div className='search-box'>
-            <input type="text" placeholder='City, Address, School, Agent, Zip'/>
-            <button>🔍</button>
-        </div>
-        <section className='nav-con'>
-            <nav className='nav-link'>
-                <a className='active' href="">Why Valerie classic ?</a>
-                <a href="">Our Agents</a>
-                <a style={{borderBottom: "2px purple solid"}} href="">Buy with Valerie classic</a>
-                <a href="">Sell with Valerie classic </a>
-                <button>Meet a Valerie classic agent </button>
-            </nav>
-        </section>
-    </header>
+    <BuyNavbar/>
+
     <div className='bg-con'>
         <div className='bg-text'>
             <h2>We’ll help you home</h2>
@@ -102,18 +89,11 @@ export const Buy = () => {
                 <img src="images/RocketUpdated_Mortgage.jpg" alt="images" />
             </div>
         </section>  
-        <section className='section3-container'>
-            <div className='section3-wrap'>
-            <img className='active' src="images/igpage.png" alt="images" />
-            <div className='text3'>
-                <h1>The best home search starts with<br/> the Valerie classic app </h1>
-                <h5>With 3D walkthroughs, 40+ filters to narrow down your search, and monthly<br/> payment calculators—our app makes it easy to find the right home from anywhere</h5>
-                <button className="app-btn"><AiFillApple size={18} /> Download on <br />App Store</button>
-                <button className="app-btn"><MdShop size={18} /> Download from <br />Google Play</button>
-            </div>
-            </div> 
-        </section>
-       
+        
+        {/* this is where the section3 Qr code was before */}
+        <ScanCode/>
+
+      
         <a href=""></a>
     </>
   )

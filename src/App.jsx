@@ -9,15 +9,15 @@ import './styles.css';
 // import Login from './pages/Login';
 // import AdminDashboard from './pages/AdminDashBoard';
 import Navbar from './components/Navbar';
-import './components/Navbar.css';
 import Footer from './components/Footer';
-import './components/Footer.css';
 import { Buy } from './pages/Buy';
-import './pages/Buy.css';
+
+
 
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar/>
       <Routes>
@@ -32,6 +32,8 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </>
+    
   );
 }
 
