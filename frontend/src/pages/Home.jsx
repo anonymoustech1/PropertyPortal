@@ -6,6 +6,7 @@ import '../styles.css'
 import OptionsCard from '../components/OptionsCard';
 import Insta from '../components/Insta';
 import TalkAgent from '../components/TalkAgent';
+import SignUp from './SignUp';
 
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
     <OptionsCard/>
     <Insta/>
     <TalkAgent/>
+    <SignUp/>
     
 
     </>
