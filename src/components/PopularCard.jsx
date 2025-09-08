@@ -1,7 +1,7 @@
 import React from 'react'
 import Popular from '../Popular'
 
-const PopularCard = ({ model, info, address, image, contact}) => {
+const PopularCard = ({ model, info, address, contact}) => {
 //     const [showModal, setShowModal] = useState(false);
 
 //   const openModal = () => setShowModal(true);
@@ -26,6 +26,7 @@ const PopularCard = ({ model, info, address, image, contact}) => {
     </div>
      {/* </div> */}
      <PopularCard />
+    
       
     </>
   )
