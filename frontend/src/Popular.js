@@ -12,6 +12,7 @@ const houses = [
         "models": "fully detached duplex",
         "info": " 3 beds     1 bath    --sqft",
         "address": "ikota villa house 11.",
+        "contact": "visit our instagram",
         "image": "images/porsche.jpg" 
     },
 
