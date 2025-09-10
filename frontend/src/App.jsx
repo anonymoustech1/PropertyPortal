@@ -15,27 +15,29 @@ import { Buy } from './pages/Buy';
 
 
 
+// function App() {
+//   return (
+//     <>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/buy" element={<Buy />} />
+//         {/* Add more routes here */}
+//       </Routes>
+//       <Footer />
+//     </>
+//   );
+// }
+
 function App() {
-  return (
-    <>
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/buy" element={<Buy />} />
-        {/* <Route path="/listings" element={<Listings />} /> */}
-        {/* <Route path="/property/:id" element={<PropertyDetails />} /> */}
-        {/* <Route path="/find-agent" element={<FindAgent />} /> */}
-        {/* <Route path="/sell" element={<Sell />} /> */}
-        {/* <Route path="/login" element={<Login />} /> */}
-        {/* <Route path="/admin" element={<AdminDashboard />} /> */}
-      </Routes>
-      <Footer />
-    </Router>
-  
-    </>
-    
-  );
+  return 
+  <>
+    <Navbar/>
+    <Routes>
+       <Route path="/" element={<Home />} />
+    </Routes>
+    <h1>Hello World</h1>;
+  </>
 }
 
 export default App;
